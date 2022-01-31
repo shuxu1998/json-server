@@ -1,0 +1,12 @@
+.btn{
+    position: relative;
+    padding: 5px 15px;
+    top: 1rem;
+    background-color: var(--main-bg-color);
+    color: var(--theme-color-btn-text);
+    border: 1px solid white;
+}
+.btn:active{
+    background-color: orange;
+
+}

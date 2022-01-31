@@ -1,0 +1,112 @@
+.event-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    min-height: var(--main-min-height);
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    background-color: var(--main-bg-color);
+
+  }
+  .table-container{
+    position: absolute;
+    width: 65vw;
+    height: 90vh;
+    /* min-height: var(--main-min-height); */
+    /* max-width: 1000px;
+    min-width: 320px; */
+    margin: 3rem;
+    /* padding: 5rem; */
+    background-color: white;
+  }
+
+  .table-container .event-header {
+    background-color: var(--theme-color-primary);
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: var(--main-header-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: var(--header-color);
+  }
+
+.header__leftGroup,
+.header__left-centerGroup,
+.header__right-centerGroup,
+.header__rightGroup{
+  height: 100%;
+  flex: 1 1 25%;
+}
+
+.event-header .header__leftGroup {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  order: 1;
+}
+.event-header .header__left-centerGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 2;
+  min-width: 32rem;
+}
+.event-header .header__right-centerGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 3;
+  min-width: 32rem;
+}
+.event-header .header__rightGroup {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  order: 4;
+}
+
+.table-container .event-content {
+  display: grid;
+  position: absolute;
+  top: 10rem;
+  left: 0;
+  right: 0;
+  bottom: 10rem;
+  overflow: auto;
+}
+.input-row{
+  /* display: grid; */
+  background-color: yellow;
+  position: static;
+  top: 0rem;
+  z-index: 1000;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+/* .input-row2{
+  display: flex;
+  background-color: yellow;
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: var(--main-header-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  color: orange;
+} */
+  @media (max-width:700px) {
+
+  }
