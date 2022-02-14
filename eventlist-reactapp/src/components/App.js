@@ -39,7 +39,6 @@ class App extends React.Component {
   save = () => {};
 
   render() {
-    //fetch data from server
     const { DataisLoaded, items } = this.state;
     const dateConverter = (milliseconds) => {
       var convertedDate = new Date(+milliseconds);
